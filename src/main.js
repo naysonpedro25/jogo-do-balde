@@ -3,7 +3,7 @@ const k = kaplay({
   background: "#11ACF6",
 });
 
-k.debug.inspect = true;
+k.debug.inspect = false;
 k.loadRoot("./");
 k.loadSprite("balde", "sprites/balde-sprites.png", {
   sliceY: 3,
